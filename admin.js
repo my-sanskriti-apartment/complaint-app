@@ -1,4 +1,4 @@
-const ADMIN_API = "AKfycbyT2jZq2t9NgtznkiNPyd7J6SllPLaam7fhXXlKxZBa";
+const ADMIN_API = "https://script.google.com/macros/s/AKfycbxzr6bMVLPKnS_ZUwl35N95XOp4O7_1alJS_0TG2hOKvDe3OlZfb-kpaj33ENMJEbk76Q/exec";
 
 fetch(ADMIN_API)
 .then(res => res.json())
