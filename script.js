@@ -1,4 +1,4 @@
-const API_URL = "AKfycbyT2jZq2t9NgtznkiNPyd7J6SllPLaam7fhXXlKxZBa";
+const API_URL = "https://script.google.com/macros/s/AKfycbxzr6bMVLPKnS_ZUwl35N95XOp4O7_1alJS_0TG2hOKvDe3OlZfb-kpaj33ENMJEbk76Q/exec";
 
 // Check login
 const userEmail = localStorage.getItem("userEmail");
