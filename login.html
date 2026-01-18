@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>🔐 Login (OTP)</h2>
+
+  <input id="email" placeholder="Enter your email">
+  <button class="btn" onclick="sendOtp()">Send OTP</button>
+
+  <div id="otpBox" style="display:none;">
+    <input id="otp" placeholder="Enter OTP">
+    <button class="btn" onclick="verifyOtp()">Verify</button>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

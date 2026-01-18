@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register Complaint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>📢 Register Complaint</h2>
+
+  <form id="complaintForm">
+    <input name="flat" placeholder="Flat No (1–1640)" required>
+    <input name="owner" placeholder="Owner Name" required>
+    <input name="mobile" placeholder="Mobile No" required>
+
+    <select name="category">
+      <option>Flat</option>
+      <option>Building</option>
+      <option>Apartment</option>
+      <option>Water</option>
+      <option>Electricity</option>
+      <option>Lift</option>
+    </select>
+
+    <input name="subject" placeholder="Subject" required>
+    <textarea name="description" placeholder="Explain the problem"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
